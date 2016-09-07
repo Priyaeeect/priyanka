@@ -12,6 +12,7 @@ a[i]=sc.nextInt();
 }
 int c1=0;
 for(int i=0;i<a.length;i++)
+c1=0;
 for(int k=2;k<=a[i];k++)
 {
 if(a[i]%k==0)
